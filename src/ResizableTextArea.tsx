@@ -159,6 +159,7 @@ class ResizableTextArea extends React.Component<TextAreaProps, TextAreaState> {
     ]);
     const cls = classNames(prefixCls, className, {
       [`${prefixCls}-disabled`]: disabled,
+      [`${prefixCls}-has-limit`]: maxLength,
     });
     // Fix https://github.com/ant-design/ant-design/issues/6776
     // Make sure it could be reset when using form.getFieldDecorator

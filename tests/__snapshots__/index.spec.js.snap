@@ -2,7 +2,7 @@
 
 exports[`TextArea should support disabled 1`] = `
 <textarea
-  class="rc-textarea rc-textarea-disabled"
+  class="xst-textarea xst-textarea-disabled"
   disabled=""
 />
 `;
@@ -10,13 +10,13 @@ exports[`TextArea should support disabled 1`] = `
 exports[`TextArea should support maxLength 1`] = `
 Array [
   <textarea
-    class="rc-textarea"
+    class="xst-textarea"
   />,
   <span
-    class="rc-textarea-limit"
+    class="xst-textarea-limit"
   >
     <span
-      class="rc-textarea-limit-current"
+      class="xst-textarea-limit-current"
     >
       0
     </span>

@@ -139,7 +139,7 @@ class ResizableTextArea extends React.Component<TextAreaProps, TextAreaState> {
 
   renderTextArea = () => {
     const {
-      prefixCls = 'rc-textarea',
+      prefixCls = 'xst-textarea',
       autoSize,
       onResize,
       className,

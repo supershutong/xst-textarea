@@ -1,5 +1,5 @@
 ---
-title: rc-textarea
+title: xst-textarea
 ---
 
 <embed src="../README.md"></embed>

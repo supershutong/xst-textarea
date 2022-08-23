@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea should support disabled 1`] = `
+<textarea
+  class="rc-textarea rc-textarea-disabled"
+  disabled=""
+/>
+`;
+
+exports[`TextArea should support maxLength 1`] = `
+Array [
+  <textarea
+    class="rc-textarea"
+  />,
+  <span
+    class="rc-textarea-limit"
+  >
+    <span
+      class="rc-textarea-limit-current"
+    >
+      0
+    </span>
+    /10
+  </span>,
+]
+`;
